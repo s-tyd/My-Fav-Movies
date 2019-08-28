@@ -1,0 +1,10 @@
+ja:
+  activerecord:
+    models:
+      movie: 映画
+    attributes:
+      movie:
+        title: 映画タイトル
+        rate: 評価
+        year: 公開年
+        content: 感想

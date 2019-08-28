@@ -1,0 +1,21 @@
+<table class="table table-striped table-hover">
+  <thead>
+  <tr>
+    <th><%= sort_link(@q, :title) %></th>
+    <th><%= sort_link(@q, :rate) %></th>
+    <th><%= sort_link(@q, :year) %></th>
+    <th>感想</th>
+  </tr>
+  </thead>
+  <tbody>
+  <% @movies.each do |movie| %>
+    <tr>
+      <td><%= link_to movie.title, movie %></td>
+      <td><%= movie.rate %></td>
+      <td><%= movie.year %></td>
+      <td><%= movie.content.slice(0..10) %></td>
+    </tr>
+  <% end %>
+  </tbody>
+</table>
+<%= paginate @movies %>

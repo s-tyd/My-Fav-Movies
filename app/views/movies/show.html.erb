@@ -1,0 +1,27 @@
+
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>タイトル:</strong>
+  <%= @movie.title %>
+</p>
+
+<p>
+  <strong>評価:</strong>
+  <%= @movie.rate %>
+</p>
+
+<p>
+  <strong>公開年:</strong>
+  <%= @movie.year %>
+</p>
+
+<p>
+  <strong>感想:</strong>
+  <%= @movie.content %>
+</p>
+
+
+<%= link_to '戻る', movies_path ,:class =>"btn btn-primary"%>
+<%= link_to '編集', edit_movie_path(@movie) ,:class =>"btn btn-primary"%>
+<%= link_to '削除', @movie , method: :delete , data: {confirm: "本当に削除しますか？"} ,:class =>"btn btn-primary"%>
