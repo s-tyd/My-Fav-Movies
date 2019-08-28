@@ -1,24 +1,13 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Ruby version : 2.6.3
+* Rails version : 5.2.3
 
-Things you may want to cover:
+テーマ：映画のリストを作って、そこにお気に入りの５段階評価をできるもの。
+それを基本機能として、余力があればそこに自分なりの追加機能をつける。
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+追加機能
+* 公開年、感想欄の追加
+* 映画タイトル検索
+* タイトル順 評価順 公開年 でのソート
+* ページネーション
