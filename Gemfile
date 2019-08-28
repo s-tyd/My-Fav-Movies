@@ -62,13 +62,13 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # bootstrap
-gem 'bootstrap-sass', '~> 3.3.5'
+gem 'bootstrap-sass'
 gem 'jquery-rails'
 gem 'bootswatch-rails'
 
 # kaminari pagenation
 gem 'kaminari'
-gem 'kaminari-bootstrap', '~> 3.0.1'
+gem 'kaminari-bootstrap'
 
 # ransack
 gem 'ransack'
